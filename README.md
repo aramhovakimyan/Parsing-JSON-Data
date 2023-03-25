@@ -7,7 +7,7 @@ This program reads a sample JSON file containing basic information about people 
 
 To use the program, follow these steps:
 
-1.  Add  custom JSON file (`custom.json`), which contains valid JSON data with the expected structure and data types (e.g. existing `person.json`). Please implement your `custom.json` as it is implemented in `person.json` in this repository, if not, you will have error message by nlohmann.json library. Don't use `result.json` and `average_age.json` files as input, it will generate excpetion.
+1.  Add  custom JSON file (`custom.json`), which contains valid JSON data with the expected structure and data types (e.g. existing `person.json`). Please implement your `custom.json` as it is implemented in `person.json` in this repository, if not, you will have error message by nlohmann.json library. Don't use `result.json` and `average_age.json` files as input, it will generate exception.
 2.  Compile the program using a sample `make` command and then run following command (by added path to your .json file in this way) `./main /path/to/json`.
 3.  View the output of the program in the output files.
 

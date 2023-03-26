@@ -1,4 +1,4 @@
-#include "../includes/parse_json_data.hpp"
+#include "parse_json_data.hpp"
 
 int	check_file(char *path)
 {

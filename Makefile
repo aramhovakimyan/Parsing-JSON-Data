@@ -6,10 +6,11 @@ OBJS = ${SRCS:.cpp=.o}
 
 CXX = g++ 
 FLAGS = -Wall -Wextra
-HEADER = ./includes/person.h
+I = -I./includes
+HEADER = includes/person.h includes/parse_json_data.hpp
 
 %.o: %.cpp $(HEADER) Makefile
-	$(CXX) $(FLAGS) -c $< -o $@
+	$(CXX) $(FLAGS) $(I) -c $< -o $@
 
 all:	${NAME}
 

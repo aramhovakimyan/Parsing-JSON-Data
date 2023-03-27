@@ -1,4 +1,4 @@
-#include "../includes/parse_json_data.hpp"
+#include "parse_json_data.hpp"
 
 int main(int argc, char** argv)
 {

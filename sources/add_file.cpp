@@ -1,4 +1,4 @@
-#include "../includes/parse_json_data.hpp"
+#include "parse_json_data.hpp"
 
 void append_to_file(std::vector<Person*>& persons)
 {

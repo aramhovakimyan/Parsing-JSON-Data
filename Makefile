@@ -5,11 +5,12 @@ SRCS = ./sources/main.cpp ./sources/average_age_persons.cpp ./sources/add_file.c
 OBJS = ${SRCS:.cpp=.o}
 
 CXX = g++ 
-FLAGS = -Wall -Wextra
-HEADER = ./includes/person.h
+FLAGS = -Wall -Wextra -std=c++17
+I = -I./includes
+HEADER = includes/person.h includes/parse_json_data.hpp
 
 %.o: %.cpp $(HEADER) Makefile
-	$(CXX) $(FLAGS) -c $< -o $@
+	$(CXX) $(FLAGS) $(I) -c $< -o $@
 
 all:	${NAME}
 

@@ -1,4 +1,4 @@
-#include "../includes/parse_json_data.hpp"
+#include "parse_json_data.hpp"
 
 void parse_from_json(std::vector<Person*>& person_arr, const std::string& path)
 {

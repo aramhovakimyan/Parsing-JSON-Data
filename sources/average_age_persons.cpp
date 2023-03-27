@@ -1,4 +1,4 @@
-#include "../includes/parse_json_data.hpp"
+#include "parse_json_data.hpp"
 
 void average_age_person(const std::vector<Person*>& persons)
 {
